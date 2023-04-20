@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: #13448d;
+  }
+
+.title {
+    font-size: 32px;
+    color: white;
+}
+
+.main {
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.scoreboard{
+    margin: 50px;
+}
+
+.gameplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.userSelector{
+    margin: 30px;
+}
+
+.playSelector{
+    margin: 30px;
+}
+
+.scoreDisplay{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
